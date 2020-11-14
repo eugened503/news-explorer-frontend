@@ -1,0 +1,50 @@
+@import url('../../../blocks/menu/__item/__item_margin/menu__item_margin.css');
+@import url('../../../blocks/menu/__item/__item_color/menu__item_color.css');
+@import url('../../../blocks/menu/__item/__item_visible/menu__item_visible.css');
+@import url('../../../blocks/menu/__item/__item_none/menu__item_none.css');
+
+
+.menu__item:hover {
+    opacity: 0.5;
+    transition: 0.1s;
+}
+
+.menu__item {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+    color: white;
+  }
+
+  @media screen and (min-width: 769px) {
+    .menu__item {
+      margin: 30px 33px 0 0;
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (min-width: 574px) and (max-width: 768px) {
+    .menu__item {
+      font-size: 16px;
+      margin: 22px 18px 0 0;
+          text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+    color: white;
+    }
+  }
+
+ 
+  @media screen  and (max-width: 573px) {
+    .menu__item {
+      display: none;
+    }
+  }
+
+

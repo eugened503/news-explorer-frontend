@@ -1,0 +1,44 @@
+@import url('../../blocks/menu/__item/menu__item.css');
+@import url('../../blocks/menu/__facebook/menu__facebook.css');
+@import url('../../blocks/menu/__github/menu__github.css');
+@import url('../../blocks/menu/_display/menu_display.css');
+@import url('../../blocks/menu/_open/menu_open.css');
+@import url('../../blocks/menu/__button/menu__button.css');
+@import url('../../blocks/menu/__button-save/menu__button-save.css');
+@import url('../../blocks/menu/__button-nav/menu__button-nav.css');
+@import url('../../blocks/menu/__item-color/menu__item-color.css');
+@import url('../../blocks/menu/__button-auth_width/menu__button-auth_width.css');
+@import url('../../blocks/menu/__text-decoration/menu__text-decoration.css');
+@import url('../../blocks/menu/__button-top/menu__button-top.css');
+@import url('../../blocks/menu/_margin/menu_margin.css');
+@import url('../../blocks/menu/__text-decoration-save/menu__text-decoration-save.css');
+@import url('../../blocks/menu/__item-mobile/menu__item-mobile.css');
+@import url('../../blocks/menu/__icon-mobile/menu__icon-mobile.css');
+@import url('../../blocks/menu/__icon-mobile-black/menu__icon-mobile-black.css');
+@import url('../../blocks/menu/__close-button/menu__close-button.css');
+@import url('../../blocks/menu/__form/menu__form.css');
+@import url('../../blocks/menu/__mobile-container/menu__mobile-container.css');
+@import url('../../blocks/menu/__mobile-header/menu__mobile-header.css');
+@import url('../../blocks/menu/__mobile-header/menu__mobile-header.css');
+@import url('../../blocks/menu/__mobile-header-bottom/menu__mobile-header-bottom.css');
+@import url('../../blocks/menu/__mobile-item/menu__mobile-item.css');
+@import url('../../blocks/menu/__button-mobile/menu__button-mobile.css');
+@import url('../../blocks/menu/__title/menu__title.css');
+
+.menu {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    position: relative;
+  }
+
+  @media screen and (max-width: 320px) {
+    .menu {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      position: relative;
+    }
+  }
+  
+

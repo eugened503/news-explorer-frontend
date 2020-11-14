@@ -1,0 +1,11 @@
+
+  @media screen and (max-width: 573px) {
+    .menu__icon-mobile-black {
+      background: url(../../../images/icon-mobile-black.svg) no-repeat;
+      display: block;
+      height: 24px;
+      width: 24px;
+      margin: 16px 15px 0 0;
+    }
+  }
+  

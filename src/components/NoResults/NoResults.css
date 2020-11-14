@@ -1,0 +1,11 @@
+@import url('../../blocks/no-results/__elements/no-results__elements.css');
+@import url('../../blocks/no-results/__img/no-results__img.css');
+@import url('../../blocks/no-results/__header/no-results__header.css');
+@import url('../../blocks/no-results/__paragraph/no-results__paragraph.css');
+
+.no-results {
+    background: #F5F6F7;
+    display: none;
+}
+
+

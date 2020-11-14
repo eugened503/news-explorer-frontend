@@ -1,0 +1,15 @@
+@import url('../../menu/__form/__form_close/menu__form_close.css');
+.menu__form {
+    width: 100%;
+    min-height: 295px;
+    color: white;
+    background-color: #1A1B22;
+    left: 50%;
+    position: fixed;
+    top: 138px;
+    display: block;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}

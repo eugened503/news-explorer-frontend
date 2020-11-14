@@ -1,0 +1,22 @@
+@import url('../login/__field/login__field.css');
+@import url('../login/__welcome/login__welcome.css');
+@import url('../login/__button/login__button.css');
+@import url('../login/__form/login__form.css');
+@import url('../login/__button/__button_disabled/login__button_disabled.css');
+@import url('../login/__button-container/login__button-container.css');
+@import url('../login/__label-margin/login__label-margin.css');
+@import url('../login/__signup/login__signup.css');
+@import url('../login/__field-error/login__field-error.css');
+
+
+.login {
+    display: flex;
+    font-family: 'Roboto';
+    flex-direction: column;
+    justify-content: center;
+    font-family: Inter;
+    max-width: 360px;
+    margin: auto auto;
+}
+
+

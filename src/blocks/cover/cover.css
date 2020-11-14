@@ -1,0 +1,32 @@
+@import url('../../blocks/cover/__image/cover__image.css');
+@import url('../../blocks/cover/__search/cover__search.css');
+@media screen and (min-width: 769px) {
+  .cover {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    margin-top: -121px;
+    min-height: 576px;
+  }
+}
+
+@media screen and (min-width: 574px) and (max-width: 768px) {
+  .cover {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    margin-top: -66px;
+  }
+}
+
+@media screen and (max-width: 573px) {
+  .cover {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    margin-top: -57px;
+  }
+}

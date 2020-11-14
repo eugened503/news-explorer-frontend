@@ -1,0 +1,35 @@
+@import url('../../../blocks/login/__form/__form_open/login__form_open.css');
+@import url('../__form/__form_height/login__form_height.css');
+.login__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.login__form label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(47, 113, 229, 1);
+  margin: 25px 0 0 0;
+}
+
+@media screen and (max-width: 573px) {
+  .login__form label {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 573px) {
+  .login__form {
+    margin-top: -25px;
+    max-width: 320px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

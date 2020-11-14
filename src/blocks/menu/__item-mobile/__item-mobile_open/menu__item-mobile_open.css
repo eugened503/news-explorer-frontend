@@ -1,0 +1,6 @@
+@media screen and (max-width: 320px) {
+    .menu__item-mobile_open {
+      display: block;
+    }
+  }
+  

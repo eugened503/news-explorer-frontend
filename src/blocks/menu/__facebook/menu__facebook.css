@@ -1,0 +1,33 @@
+.menu__facebook {
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (min-width: 769px) {
+    .menu__facebook {
+        background-image: url(../../../images/facebook.svg);
+        margin-right: 4px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (min-width: 574px) and (max-width: 768px) {
+    .menu__facebook {
+        background-image: url(../../../images/facebook-768.svg);
+        margin-right: 41px;
+        width: 22px;
+        height: 22px;
+    }
+}
+
+@media screen and (max-width: 573px) {
+    .menu__facebook {
+        background-image: url(../../../images/facebook.svg);
+        margin-right: 4px;
+        width: 20px;
+        height: 20px;
+    }
+}

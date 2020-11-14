@@ -1,0 +1,64 @@
+
+.cards__button:focus {
+    outline: none;
+}
+
+@media screen and (min-width: 769px) {
+    .cards__button {
+        background: white;
+        border-radius: 80px;
+        border: none;
+        height: 64px;
+        width: 288px;
+        cursor: pointer;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+        padding: 15px 0 15px 85px;
+    }
+}
+
+@media screen and (min-width: 574px) and (max-width: 768px) {
+    .cards__button {
+        background: white;
+        border-radius: 80px;
+        border: none;
+        height: 56px;
+        width: 240px;
+        cursor: pointer;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+        padding: 15px 60px 15px 60px;
+    }
+}
+
+@media screen and (max-width: 573px) {
+    .cards__button {
+        background: white;
+        border-radius: 80px;
+        border: none;
+        height: 56px;
+        width: 288px;
+        cursor: pointer;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        display: flex;
+        margin: 25px auto 0 auto;
+        text-align: center;
+        padding: 15px 60px 15px 80px;
+    }
+}

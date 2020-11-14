@@ -1,0 +1,13 @@
+@import url('../../blocks/success/__form/success__form.css');
+@import url('../../blocks/success/__link/success__link.css');
+@import url('../../blocks/success/__title/success__title.css');
+@import url('../../blocks/success/__button/successs__button.css');
+
+@media screen and (max-width: 573px) {
+    .success {
+        width: 90%;
+        padding: 0 0 0 10px;
+        min-height: 200px;
+        border-radius: 16px;
+    }
+}

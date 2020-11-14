@@ -1,0 +1,17 @@
+
+  @media screen and (min-width: 769px) {
+    .menu__text-decoration-save {
+      text-decoration: none;
+      border-bottom: 3px black solid;
+      min-height: 47px;
+    }
+  }
+  
+  @media screen and (min-width: 574px) and (max-width: 768px) {
+    .menu__text-decoration-save {
+      text-decoration: none;
+      border-bottom: 3px black solid;
+      min-height: 40px;
+    }
+  }
+  

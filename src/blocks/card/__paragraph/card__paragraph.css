@@ -1,0 +1,33 @@
+@media screen and (min-width: 769px) {
+    .card__paragraph {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 100%;
+        height: auto;
+        grid-area: paragraph;
+        margin: 0 auto 0 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card__paragraph {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 192px;
+        height: 88px;
+        grid-area: paragraph;
+        margin: 0 auto 0 15px;
+        white-space: wrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+}

@@ -1,0 +1,15 @@
+.footer__margin-main {
+    margin: 0 39px 0 0;
+}
+
+@media screen and (min-width: 769px) {
+    .footer__margin-main {
+        margin: 0 39px 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__margin-main {
+        margin: 0 17px 0 0;
+    }
+}

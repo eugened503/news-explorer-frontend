@@ -1,0 +1,31 @@
+.header__explorer {
+    color: white;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 769px) {
+    .header__explorer {
+        margin: 30px 53px  0 105px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 574px) and (max-width: 768px) {
+    .header__explorer {
+        margin: 22px 0 0 40px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 573px) {
+    .header__explorer {
+        margin: 16px 0 15px 16px;
+        font-size: 16px;
+    }
+}
+

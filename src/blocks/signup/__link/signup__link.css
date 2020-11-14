@@ -1,0 +1,19 @@
+@import url('../__link/__link_margin/signup__link_margin.css');
+@import url('../__link/__link_color/signup__link_color.css');
+
+.signup__link {
+    margin: 0 4px 0 0;
+    text-decoration: none;
+    border: none;
+    color: black;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+   
+}
+
+
+

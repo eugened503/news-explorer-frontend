@@ -1,0 +1,10 @@
+.success__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    max-width: 360px;
+    margin: 0 auto;
+    min-height: 50px;
+  }
+  

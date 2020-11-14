@@ -1,0 +1,7 @@
+
+@media screen and (max-width: 573px) {
+    .success__button {
+        top: -15%;
+        left: 90%;
+    }
+}

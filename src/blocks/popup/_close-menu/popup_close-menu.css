@@ -1,0 +1,7 @@
+
+@media screen and (min-width: 574px) {
+    .popup_close-menu {
+        visibility: hidden;
+    }
+}
+

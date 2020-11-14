@@ -1,0 +1,21 @@
+@import url('../../../blocks/menu/__button-save/__button-save_margin/menu__button-save_margin.css');
+
+.menu__button-save {
+    background: url(../../../images/nav-save.svg) no-repeat;
+    color: black;
+    border-color: black;
+  }
+
+  @media screen and (min-width: 769px) {
+    .menu__button-save {
+      background-position-x: 75px;
+      background-position-y: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menu__button-save {
+      background-position-x: 63px;
+      background-position-y: 9px;
+    }
+  }

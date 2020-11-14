@@ -1,0 +1,34 @@
+.card__button-trash {
+    background-image: url(../../../images/trash.svg);
+    left: 83%;
+}
+
+.card__button-trash:hover {
+    background-image: url(../../../images/trash-black.svg);
+}
+
+.card__button-trash:hover::after {
+    content: "Убрать из сохранённых";
+    z-index: 1;
+    background: white;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    border-radius: 10px;
+    border: none;
+    width: 182px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 -190px;
+}
+
+@media screen and (min-width: 574px) and (max-width: 768px) {
+    .card__button-trash {
+        left: 80%;
+    }
+}

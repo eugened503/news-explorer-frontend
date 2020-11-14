@@ -1,0 +1,7 @@
+@media screen and (min-width: 769px) {
+    .card__padding {
+        padding-top: 81px;
+        /* margin-top: 39px; */
+        margin: 39px auto 0 auto;
+    }
+}

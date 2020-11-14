@@ -1,0 +1,16 @@
+.regist__mistake-email {
+    position: absolute;
+    color: red;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    top: 32%;
+  }
+
+  @media screen and (max-width: 573px) {
+    .regist__mistake-email {
+      top: 20%;
+    }
+  }

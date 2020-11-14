@@ -1,0 +1,38 @@
+.card__button {
+    display: inline-block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40px 40px;
+    border: 0;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    top: 25px;
+    background-color: transparent;
+    padding: 0;
+}
+
+@media screen and (min-width: 769px) {
+    .card__button {
+        top: 25px;
+    }
+}
+
+@media screen and (min-width: 574px) and (max-width: 768px) {
+    .card__button {
+        top: 10px;
+        left: 175px;
+    }
+}
+
+@media screen and (max-width: 573px) {
+    .card__button {
+        top: 17px;
+        left: 231px;
+    }
+}

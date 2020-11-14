@@ -1,0 +1,9 @@
+@import url('../../../blocks/menu/__item-mobile/__item-mobile_open/menu__item-mobile_open.css');
+
+@media screen and (max-width: 573px) {
+    .menu__item-mobile {
+      display: none;
+    }
+}
+
+

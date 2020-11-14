@@ -1,0 +1,11 @@
+@media screen and (min-width: 574px) and (max-width: 768px) {
+    .about__subtitle_margin-top {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 573px) {
+    .about__subtitle_margin-top {
+        margin-top: 10px;
+    }
+}

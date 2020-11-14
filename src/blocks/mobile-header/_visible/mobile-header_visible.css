@@ -1,0 +1,8 @@
+@media screen and (max-width: 320px) {
+    .mobile-header_visible {
+      display: block;
+      opacity: 1;
+      visibility: visible;
+  
+    }
+  }

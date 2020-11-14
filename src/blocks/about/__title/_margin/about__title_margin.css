@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+    .about__title_margin {
+        margin-top: 0px;
+    }
+}
