@@ -3,7 +3,6 @@
 @import url('../../blocks/cards/__search/cards__search.css');
 @import url('../../blocks/cards/__save/cards__save.css');
 @import url('../../blocks/cards/__margin-top/cards__margin-top.css');
-
 @media screen and (min-width: 769px) {
     .cards {
         margin: 64px auto 0 auto;
@@ -21,9 +20,7 @@
         max-width: 688px;
         min-height: 420px;
         display: grid;
-        /* grid-template-columns: minmax(196px, 224px) minmax(196px, 224px) minmax(196px, 224px); */
-        grid-template-columns: repeat( auto-fit, minmax(196px, 224px) );
-        margin-bottom: 33px;
+        grid-template-columns: minmax(96px, 224px) minmax(96px, 224px) minmax(96px, 224px);
         grid-gap: 8px;
     }
 }
@@ -38,5 +35,3 @@
         padding-top: 23px;
     }
 }
-
-

@@ -96,8 +96,8 @@ function App() {
       <SuccessfulAuth isOpen={isEditSuccess} onClose={closeAllPopups} onEditLogin={openLogin} />
       <Login isOpen={isEditLogin} onClose={closeAllPopups} openLogin={goSite} onEditReg={openReg} />
 
-
-      <Footer /> 
+ 
+      <Footer />  
     </div>
   );
 }

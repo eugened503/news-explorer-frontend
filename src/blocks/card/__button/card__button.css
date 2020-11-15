@@ -23,12 +23,31 @@
     }
 }
 
-@media screen and (min-width: 574px) and (max-width: 768px) {
+@media screen and (min-width: 689px) and (max-width: 768px) {
     .card__button {
         top: 10px;
         left: 175px;
     }
 }
+
+@media screen and (min-width: 616px) and (max-width: 688px) {
+    .card__button {
+        top: 10px;
+        left: 160px;
+    }
+}
+
+
+@media screen and (min-width: 574px) and (max-width: 615px) {
+    .card__button {
+        top: 10px;
+        left: 145px;
+    }
+}
+
+
+
+
 
 @media screen and (max-width: 573px) {
     .card__button {

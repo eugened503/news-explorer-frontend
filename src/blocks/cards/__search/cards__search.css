@@ -1,29 +1,32 @@
+.cards__search {
+    position: relative;
+    background-color: rgba(245, 246, 247, 1);
+    width: 100%;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+}
+
 @media screen and (min-width: 769px) {
     .cards__search {
-        position: relative;
-        background-color: rgba(245, 246, 247, 1);
-        width: 100%;
         min-height: 892px;
-        font-family: Roboto Slab;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 40px;
-        line-height: 46px;
         padding-bottom: 2px;
     }
 }
 
-@media screen and (min-width: 574px) and (max-width: 768px) {
+@media screen and (min-width: 754px) and (max-width: 768px) {
     .cards__search {
-        position: relative;
-        background-color: rgba(245, 246, 247, 1);
-        width: 100%;
-        min-height: 612px;
-        font-family: Roboto Slab;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 40px;
-        line-height: 46px;
+        min-height: 614px;
+        padding-top: 40px;
+        margin: 50px auto 0 auto;
+    }
+}
+
+@media screen and (min-width: 574px) and (max-width: 753px) {
+    .cards__search {
+        min-height: 660px;
         padding-top: 40px;
         margin: 50px auto 0 auto;
     }
@@ -31,21 +34,10 @@
 
 @media screen and (max-width: 573px) {
     .cards__search {
-        position: relative;
-        background-color: rgba(245, 246, 247, 1);
         width: 100%;
         min-height: 612px;
-        font-family: Roboto Slab;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 40px;
-        line-height: 46px;
         padding-top: 33px;
         padding-bottom: 33px;
         margin: 30px auto 0 auto;
-        
     }
 }
-
-
-

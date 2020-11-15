@@ -20,4 +20,6 @@
     color: white;
   }
 
-  
+  .login__button:focus {
+    outline: none;
+  }

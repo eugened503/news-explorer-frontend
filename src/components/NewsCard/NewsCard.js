@@ -6,7 +6,7 @@ import { useLocation } from 'react-router-dom';
     const classText = `${pathname === '/' ? 'card__button-save' : 'card__button-trash'}`;
     return (
         <article className="card">
-            <img className="card__image" alt="фото" id="myImg" src={props.image}/>
+            <img className="card__image" alt="фото" src={props.image}/>
             <h2 className="card__date">{props.date}</h2>
   <h2 className="card__title">{props.title}</h2>
   <p className="card__paragraph">{props.paragraph}</p>

@@ -19,7 +19,7 @@ function Navigation(props) {
         ? (
           <>
             <Link to="/saved-news" className={`menu__item menu__item_color ${classTextDecoration} ${classText}`}>Сохранённые статьи</Link>
-            <Link to="/" type="button" className={`menu__item menu__button menu__button_width menu__button-save_margin menu__button-top
+            <Link to="/" className={`menu__item menu__button menu__button_width menu__button-save_margin menu__button-top
             ${classTextbutton}`} aria-label="Выйти" onClick={props.onLogin}>Грета</Link >
           </>
         )
