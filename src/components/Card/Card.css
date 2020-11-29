@@ -15,6 +15,7 @@
 @import url('../../blocks/new-cards/new-cards.css');
 
 
+
 @media screen and (min-width: 769px) {
     .card {
         width: 100%;
@@ -80,3 +81,7 @@
 }
 
 
+.card__like-button_marker {
+    left: 84%;
+    background-image: url(../../images/save-button_marked.svg);
+}

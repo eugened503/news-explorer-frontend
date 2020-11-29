@@ -3,7 +3,6 @@ import { Link, useLocation } from 'react-router-dom';
 import PopupWithForm from '../PopupWithForm/PopupWithForm.js';
 
 function PopupWithMenu(props) {
-
   const { pathname } = useLocation();
 
   return (
@@ -19,12 +18,12 @@ function PopupWithMenu(props) {
           ? (
             <>
               <Link to="/saved-news" className="menu__mobile-item menu__mobile-item_top" onClick={props.onClose}>Сохранённые статьи</Link>
-              <button type="button" className="menu__button menu__button-mobile menu__button-nav" aria-label="Выйти" onClick={props.onEditReg}>Грета</button>
+              <button type="button" className="menu__button menu__button-mobile menu__button-nav" aria-label="Выйти" onClick={props.leavePage}>{props.userData.name}</button>
 
             </>
           )
           : (
-            <button type="button" className="menu__button menu__button-mobile" aria-label="Авторизоваться" onClick={props.onEditReg}>Авторизоваться</button>
+            <button type="button" className="menu__button menu__button-mobile" aria-label="Авторизоваться" onClick={props.onEditLogin}>Авторизоваться</button>
           )
         }
       </div>

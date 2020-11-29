@@ -1,6 +1,7 @@
 @import url('../../blocks/saved-news/__info/saved-news__info.css');
 @import url('../../blocks/saved-news/__lead/saved-news__lead.css');
 @import url('../../blocks/saved-news/__hashtag/saved-news__hashtag.css');
+@import url('../../blocks/saved-news/__word/saved-news__word.css');
 
 .saved-news {
   background-color: white;
@@ -22,3 +23,4 @@
     padding-bottom: 0;
   }
 }
+

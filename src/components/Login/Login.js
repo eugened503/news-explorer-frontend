@@ -2,13 +2,9 @@ import React, { useEffect, useState } from 'react';
 import PopupWithForm from '../PopupWithForm/PopupWithForm.js';
 import { Link } from 'react-router-dom';
 
-
 function Login(props) {
-
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
-  const [emailDirty, setEmailDirty] = useState(false)
-  const [passwordDirty, setPasswordDirty] = useState(false)
   const [emailError, setEmailError] = useState('')
   const [passwordError, setPasswordError] = useState('')
   const [formValid, setFormValid] = useState(false)
@@ -42,7 +38,6 @@ function Login(props) {
     } else {
       setEmailError('')
     }
-
   }
 
   const passwordHandler = (e) => {
@@ -56,44 +51,33 @@ function Login(props) {
     else {
       setPasswordError('')
     }
-
   }
 
-
-  const blurHandler = (e) => {
-
-    switch (e.target.name) {
-      case "email": setEmailDirty(true)
-        break
-      case "password": setPasswordDirty(true)
-        break
-    }
-
+  function handleSubmit(e) {
+    e.preventDefault();
+    props.openLogin(email, password);
   }
+
   return (
-    <PopupWithForm isOpen={props.isOpen} onClose={props.onClose} name="register" title="Вход" container="popup__container_reg" classTitle="popup__title_margin">
+    <PopupWithForm onSubmit={handleSubmit} isOpen={props.isOpen} onClose={props.onClose} name="register" title="Вход" container="popup__container_reg" classTitle="popup__title_margin">
       <div className="login__form login__form_open">
-
         <label htmlFor="Email">Email</label>
         <input className="login__field login__field_color login__label-margin_bottom" id="email" name="email" type="email" value={email}
-          onChange={e => emailHandler(e)} required placeholder="Введите почту" onBlur={e => blurHandler(e)} />
-        {(emailDirty && emailError && <div className="login__mistake-email">{emailError}</div>)}
-
-
+          onChange={e => emailHandler(e)} required placeholder="Введите почту" />
+        {(emailError && <div className="login__mistake-email">{emailError}</div>)}
         <label className="login__label-margin" htmlFor="password">Пароль</label>
         <input className="login__field login__field_margin login__field_color"
           id="password" name="password" type="password" value={password}
-          required placeholder="Введите пароль" onBlur={e => blurHandler(e)} onChange={e => passwordHandler(e)} />
-        {(passwordDirty && passwordError && <div className="login__mistake-password">{passwordError}</div>)}
-
+          required placeholder="Введите пароль" onChange={e => passwordHandler(e)} />
+        {(passwordError && <div className="login__mistake-password">{passwordError}</div>)}
+        <span className="login__field-error_top">{props.loginError}</span>
         <div className="login__button-container">
-          <button disabled={!formValid} type="button" onClick={props.openLogin} className={`login__button ${classText}`}>Войти</button>
+          <button disabled={!formValid} type="submit" className={`login__button ${classText}`}>Войти</button>
           <div className="login__signup">
             <p className="signup__link">или</p>
             <Link className="signup__link signup__link_color" to="/" onClick={props.onEditReg}>Зарегистрироваться</Link>
           </div>
         </div>
-
       </div>
     </PopupWithForm>)
 }

@@ -9,6 +9,10 @@
     line-height: 46px;
 }
 
+.cards__search_none {
+    display: none
+}
+
 @media screen and (min-width: 769px) {
     .cards__search {
         min-height: 892px;

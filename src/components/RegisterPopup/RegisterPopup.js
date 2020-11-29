@@ -3,13 +3,9 @@ import PopupWithForm from '../PopupWithForm/PopupWithForm.js';
 import { Link } from 'react-router-dom';
 
 function RegisterPopup(props) {
-
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [name, setName] = useState('')
-  const [nameDirty, setNameDirty] = useState(false)
-  const [emailDirty, setEmailDirty] = useState(false)
-  const [passwordDirty, setPasswordDirty] = useState(false)
   const [nameError, setNameError] = useState('')
   const [emailError, setEmailError] = useState('')
   const [passwordError, setPasswordError] = useState('')
@@ -47,7 +43,6 @@ function RegisterPopup(props) {
     } else {
       setEmailError('')
     }
-
   }
 
   const passwordHandler = (e) => {
@@ -81,37 +76,22 @@ function RegisterPopup(props) {
     props.onRegister(email, password, name);
   }
 
-  const blurHandler = (e) => {
-    switch (e.target.name) {
-      case "email": setEmailDirty(true)
-        break
-      case "password": setPasswordDirty(true)
-        break
-      case "name": setNameDirty(true)
-        break
-    }
-
-  }
   return (
     <PopupWithForm isOpen={props.isOpen} onClose={props.onClose} title="Регистрация" container="popup__container_reg" classTitle="popup__title_margin">
       <div onSubmit={handleSubmit} className="login__form login__form_height">
         <label htmlFor="Email">Email</label>
         <input className="login__field login__field_color login__label-margin_bottom" id="email" name="email" type="email" value={email}
-          onChange={e => emailHandler(e)} required placeholder="Введите почту" onBlur={e => blurHandler(e)} />
-        {(emailDirty && emailError && <div className="regist__mistake-email">{emailError}</div>)}
-        <span className="login__field-error">Такой пользователь уже есть</span>
-        
+          onChange={e => emailHandler(e)} required placeholder="Введите почту"/>
+        {(emailError && <div className="regist__mistake-email">{emailError}</div>)}
+        <span className="login__field-error">{props.registrationError}</span>
         <label className="login__label-margin" htmlFor="password">Пароль</label>
         <input className="login__field login__field_margin login__field_color"
           id="password" name="password" type="password" value={password}
-          required placeholder="Введите пароль" onBlur={e => blurHandler(e)} onChange={e => passwordHandler(e)} />
-        {(passwordDirty && passwordError && <div className="regist__mistake-password">{passwordError}</div>)}
-
-
+          required placeholder="Введите пароль" onChange={e => passwordHandler(e)} />
+        {(passwordError && <div className="regist__mistake-password">{passwordError}</div>)}
         <label htmlFor="name">Имя</label>
-        <input className="login__field login__field_margin login__field_color" id="name" name="name" type="text" value={name} onBlur={e => blurHandler(e)} onChange={e => nameHandler(e)} required placeholder="Введите своё имя" />
-        {(nameDirty && nameError && <div className="regist__mistake-name">{nameError}</div>)}
-        
+        <input className="login__field login__field_margin login__field_color" id="name" name="name" type="text" value={name} onChange={e => nameHandler(e)} required placeholder="Введите своё имя" />
+        {(nameError && <div className="regist__mistake-name">{nameError}</div>)}
         <div className="login__button-container">
           <button disabled={!formValid} type="submit" onClick={handleSubmit} className={` login__button ${classText}`}>Зарегистрироваться</button>
           <div className="login__signup">

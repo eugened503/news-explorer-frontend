@@ -31,3 +31,14 @@
     justify-content: center;
     margin: 0 -190px;
 }
+
+.card__button-save-login {
+    background-image: url(../../../images/save-button_normal.svg);
+    left: 84%;
+}
+
+
+ .card__button-save-login:hover {
+    background-image: url(../../../images/save-black.svg);
+} 
+
