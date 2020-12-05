@@ -1,0 +1,28 @@
+.saved-news__hashtag {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+@media screen and (min-width: 769px) {
+    .saved-news__hashtag {
+        font-size: 18px;
+        margin: 28px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .saved-news__hashtag {
+        font-size: 14px;
+        margin: 16px 0 0 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .saved-news__hashtag {
+        font-size: 18px;
+        margin: 16px 0 0 16px;
+    }
+}

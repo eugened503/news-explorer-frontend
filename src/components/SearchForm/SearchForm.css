@@ -1,0 +1,53 @@
+@import url('../../blocks/input/input.css');
+@import url('../../blocks/search/search.css');
+@import url('../../blocks/cover/cover.css');
+@import url('../../blocks/cover-title/cover-title.css');
+@import url('../../blocks/cover-subtitle/cover-subtitle.css');
+
+.search__mistake {
+     position: absolute; 
+    color: red;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    align-self: start;
+    
+}
+
+
+ @media screen and (min-width: 769px){
+    .search__mistake {
+         top: 52.5%; 
+        margin-left: 10px;
+    }
+  }
+  
+
+  @media screen and (min-width: 574px) and (max-width: 768px) {
+    .search__mistake {
+         top: 37%; 
+        margin-left: 25px;
+    }
+  }
+  
+
+  @media screen and (min-width: 436px) and (max-width: 573px){
+    .search__mistake {
+       top: 46.5%; 
+      margin-left: 85px; 
+      z-index: 3;
+    }
+  }
+   
+
+@media screen and (max-width: 435px){
+    .search__mistake {
+       top: 46%; 
+      margin-left: 85px; 
+      z-index: 3;
+     
+    }
+  }
+   

@@ -1,0 +1,29 @@
+.login__field-error_top {
+    position: absolute;
+    color: red;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+   
+  
+
+}
+
+
+@media screen and (min-width: 574px){
+    .login__field-error_top {
+        top: 60%;
+        margin-left: 100px;
+    }
+  }
+  
+
+@media screen  and (max-width: 573px){
+    .login__field-error_top {
+      top: 37%;
+      margin-left: 80px;
+    }
+  }
+  

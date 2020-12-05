@@ -1,0 +1,25 @@
+.menu__button-nav {
+    background: url(../../../images/nav-img.svg) no-repeat;
+  }
+
+  @media screen and (min-width: 769px) {
+    .menu__button-nav {
+      background-position-x: 75px;
+      background-position-y: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menu__button-nav {
+      background-position-x: 66px;
+      background-position-y: 12px;
+    }
+  }
+
+
+  @media screen and (max-width: 573px) {
+    .menu__button-nav {
+      background-position-x: 175px;
+      background-position-y: 17px;
+    }
+  }

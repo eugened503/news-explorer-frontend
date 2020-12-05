@@ -1,0 +1,5 @@
+@media screen and (max-width: 573px) {
+    .menu__item_visible {
+      display: none;
+    }
+  }

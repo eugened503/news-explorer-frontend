@@ -1,0 +1,9 @@
+.login__label-margin_bottom {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 573px) {
+    .login__label-margin_bottom {
+        margin-bottom: 30px;
+    }
+}

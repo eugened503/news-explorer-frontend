@@ -1,0 +1,44 @@
+.body-preloader {
+	 margin: 0; 
+	min-height: 282px;
+	background-color: #F5F6F7;;
+    overflow: hidden;
+    display: none;
+}
+
+.body-preloader_block {
+    display: block;
+}
+
+.circle-preloader {
+	display: block;
+	width: 74px;
+	height: 74px;
+	border: 1px solid #444;
+	border-bottom-color: #888;
+	border-radius: 50%;
+	position: absolute;
+	top: 37%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	animation: spin .75s infinite linear;
+}
+
+@keyframes spin {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.circle-title {
+color:rgba(182, 188, 191, 1);
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+margin: 180px auto 0 auto;
+}

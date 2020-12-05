@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+    .new-cards__item {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .new-cards__item {
+        margin-bottom: 25px;
+    }
+}

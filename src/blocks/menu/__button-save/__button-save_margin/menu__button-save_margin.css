@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+    .menu__button-save_margin {
+      margin: 13px 43px 0 0;
+      height: 32px;
+      width: 80px;
+      padding: 8px 0px 0 15px;
+    }
+  }

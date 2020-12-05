@@ -1,0 +1,6 @@
+@media screen and (max-width: 320px) {
+    .menu__icon-mobile_close {
+      display: none;
+    }
+  }
+  

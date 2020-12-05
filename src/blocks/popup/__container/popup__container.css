@@ -1,0 +1,24 @@
+@import url('../../blocks/popup/__container/__container_reg/popup__container_reg.css');
+.popup__container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: block;
+    width: 430px;
+    min-height: 182px;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    border-radius: 16px;
+}
+
+@media screen and (max-width: 573px) {
+    .popup__container {
+        top: 36.5%;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 16px;
+
+        min-height: 512px;
+    }
+}

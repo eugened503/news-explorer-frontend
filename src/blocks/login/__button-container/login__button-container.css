@@ -1,0 +1,17 @@
+.login__button-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.login__button-container {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 573px) {
+    .login__button-container {
+        margin-top: 0;
+    }
+}

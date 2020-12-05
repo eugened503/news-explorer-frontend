@@ -1,0 +1,12 @@
+@import url('../../../blocks/menu/__icon-mobile/__icon-mobile_close/menu__icon-mobile_close.css');
+
+@media screen and (max-width: 573px) {
+    .menu__icon-mobile {
+      background: url(../../../images/icon-mobile.svg) no-repeat;
+      display: block;
+      height: 24px;
+      width: 24px;
+      margin: 16px 15px 0 0;
+    }
+  }
+ 

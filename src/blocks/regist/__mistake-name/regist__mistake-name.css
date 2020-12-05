@@ -1,0 +1,16 @@
+.regist__mistake-name {
+    position: absolute;
+    color: red;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    top: 67%;
+}
+
+@media screen and (max-width: 573px) {
+    .regist__mistake-name {
+        top: 49%;
+    }
+}

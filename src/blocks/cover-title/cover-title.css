@@ -1,0 +1,36 @@
+@media screen and (min-width: 769px) {
+    .cover-title {
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 60px;
+        line-height: 64px;
+        margin-bottom: 0;
+        margin-top: 17px;
+    }
+}
+
+@media screen and (min-width: 574px) and (max-width: 768px) {
+    .cover-title {
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 40px;
+        margin: 20px 0 0 0;
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 573px) {
+    .cover-title {
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 40px;
+        margin: -135px 0 0 20px;
+        max-width: 100%;
+        z-index: 2;
+    }
+}

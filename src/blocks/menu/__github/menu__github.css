@@ -1,0 +1,22 @@
+.menu__github {
+    background-image: url(../../../images/github.svg);
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0;
+}
+
+@media screen and (min-width: 769px) {
+    .menu__github {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu__github {
+        margin-right: 29px;
+    }
+}

@@ -1,0 +1,28 @@
+.input__text:focus {
+    outline: none;
+}
+
+.input__text {
+    width: 100%;
+    padding: 5px 0 4px 22px;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 100px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: black;
+  
+}
+
+@media screen and (max-width: 573px) {
+    .input__text {
+        max-width: 271px;
+        height: 56px;
+        padding: 0;
+        margin: 75px 0 0 0;
+        padding-left: 15px;
+    }
+}

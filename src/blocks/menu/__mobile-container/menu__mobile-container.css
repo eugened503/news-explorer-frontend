@@ -1,0 +1,9 @@
+
+.menu__mobile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 288px;
+    margin: 0 auto;
+  padding-top: 17px;
+}

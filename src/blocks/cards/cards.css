@@ -1,0 +1,37 @@
+@import url('../../blocks/cards/__padding-top/cards__padding-top.css');
+@import url('../../blocks/cards/__button/cards__button.css');
+@import url('../../blocks/cards/__search/cards__search.css');
+@import url('../../blocks/cards/__save/cards__save.css');
+@import url('../../blocks/cards/__margin-top/cards__margin-top.css');
+@media screen and (min-width: 769px) {
+    .cards {
+        margin: 64px auto 0 auto;
+        max-width: 1232px;
+        display: grid;
+        grid-template-columns: minmax(224px, 400px) minmax(224px, 400px) minmax(224px, 400px);
+        margin-bottom: 64px;
+        grid-gap: 16px;
+    }
+}
+
+@media screen and (min-width: 574px) and (max-width: 768px) {
+    .cards {
+        margin: 30px auto 0 auto;
+        max-width: 688px;
+        min-height: 420px;
+        display: grid;
+        grid-template-columns: minmax(96px, 224px) minmax(96px, 224px) minmax(96px, 224px);
+        grid-gap: 8px;
+    }
+}
+
+@media screen and (max-width: 573px) {
+    .cards {
+        margin: 33px auto 0 auto;
+        max-width: 288px;
+        display: grid;
+        grid-template-columns: minmax(196px, 288px);
+        grid-row-gap: 10px;
+        padding-top: 23px;
+    }
+}

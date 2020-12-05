@@ -1,0 +1,32 @@
+@import url('../../login/__field-error/__field-error_top/login__field-error_top.css');
+
+.login__field-error {
+    position: absolute;
+    color: red;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+  
+}
+
+
+
+
+@media screen and (min-width: 574px){
+    .login__field-error {
+        margin-left: 100px;
+        top: 68%
+    }
+  }
+  
+
+@media screen  and (max-width: 573px){
+    .login__field-error {
+      top: 49%;
+      margin-left: 80px;
+    }
+  }
+  
+
