@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/news-explorer-frontend/index/static/css/main.82c46768.chunk.css",
+    "main.js": "/news-explorer-frontend/index/static/js/main.aec5d5d7.chunk.js",
+    "main.js.map": "/news-explorer-frontend/index/static/js/main.aec5d5d7.chunk.js.map",
+    "runtime-main.js": "/news-explorer-frontend/index/static/js/runtime-main.b11b4216.js",
+    "runtime-main.js.map": "/news-explorer-frontend/index/static/js/runtime-main.b11b4216.js.map",
+    "static/js/2.fdce7118.chunk.js": "/news-explorer-frontend/index/static/js/2.fdce7118.chunk.js",
+    "static/js/2.fdce7118.chunk.js.map": "/news-explorer-frontend/index/static/js/2.fdce7118.chunk.js.map",
+    "static/js/3.420d6f0d.chunk.js": "/news-explorer-frontend/index/static/js/3.420d6f0d.chunk.js",
+    "static/js/3.420d6f0d.chunk.js.map": "/news-explorer-frontend/index/static/js/3.420d6f0d.chunk.js.map",
+    "index.html": "/news-explorer-frontend/index/index.html",
+    "static/css/main.82c46768.chunk.css.map": "/news-explorer-frontend/index/static/css/main.82c46768.chunk.css.map",
+    "static/js/2.fdce7118.chunk.js.LICENSE.txt": "/news-explorer-frontend/index/static/js/2.fdce7118.chunk.js.LICENSE.txt",
+    "static/media/autor.0a21f444.jpg": "/news-explorer-frontend/index/static/media/autor.0a21f444.jpg",
+    "static/media/index.css": "/news-explorer-frontend/index/static/media/trash.f3c9809f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b11b4216.js",
+    "static/js/2.fdce7118.chunk.js",
+    "static/css/main.82c46768.chunk.css",
+    "static/js/main.aec5d5d7.chunk.js"
+  ]
+}
