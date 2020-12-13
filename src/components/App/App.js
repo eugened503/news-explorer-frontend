@@ -49,8 +49,6 @@ function App() {
   const history = useHistory();
   const jwt = localStorage.getItem('jwt'); //токен юзера
 
-  console.log(isMenu)
-
   function renderLoading(isLoading) {
     if (isLoading) {
       setIsSpinner('body-preloader_block');

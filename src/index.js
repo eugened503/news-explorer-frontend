@@ -3,14 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App/App.js';
 import reportWebVitals from './reportWebVitals';
-import Favicon from 'react-favicon';
 import {BrowserRouter} from 'react-router-dom';
 
 
 ReactDOM.render(
   <React.StrictMode>
  <BrowserRouter> 
- <Favicon url="./images/favicon.ico"/>
     <App 
     />
     </BrowserRouter> 
