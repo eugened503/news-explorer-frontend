@@ -37,6 +37,9 @@
 + Перечислены в порядке убывания ключевые слова, по которым велся поиск статей
 + Показаны сохраненные карточки, которые можно удалять
 
+## Ссылка на GitHub Pages
+* [Нажмите, чтобы увидеть проект](https://eugened503.github.io/news-explorer-frontend/#/)
+
 ## Дополнительная информация
 * [Бэкенда-часть дипломного проекта](https://github.com/eugened503/news-explorer-api)
 * [Макет проекта](https://www.figma.com/file/Dhl21eRzzbFMBe0DU9SglF/Diploma-WEB-v2.0-(for-students)?node-id=6%3A116)
