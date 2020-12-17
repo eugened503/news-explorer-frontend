@@ -1,7 +1,5 @@
 # Фронтенд-часть дипломного проекта News Explorer для Яндекс.Практикума
 
-![Alt-текст](https://downloader.disk.yandex.ru/preview/8b7f83fb238cc128c4cc99919b0f788865a79b5ce3d6cb9b7e12cb4c33993fb1/5fd584b2/KwGGY2rEeq2L1zXITclN8XsncHJdL1ajjJQBIGS8-TAjj_-qHkCWsIYd4KjoYDjUlVBFQCGPs8A4zfx9rflxGg%3D%3D?uid=0&filename=lead.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=2048x2048)
-
 ## Описание проекта 
 Проект выполнен на  **React** и является сервисом по поиску новостей. Введя в поисковую строку ключевое слово, пользователь получает новости, которые потом может сохранять (если зарегистрируется).
 Проект состоит из двух страниц: главной страницы и страницы «сохраненные статьи» для зарегистрированного пользователя.
